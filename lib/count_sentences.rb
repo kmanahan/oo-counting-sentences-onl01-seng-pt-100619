@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     # binding.pry
-    self.match(/([\w])/).count
+    self.match(/([\w])/)
   end
 end
