@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    # binding.pry
-    [uts self.split(/[^\.\!\?]*[\.\!\?]/).count
+    binding.pry
+    self.split(/[^\.\!\?]*[\.\!\?]/).count
   end
 end
